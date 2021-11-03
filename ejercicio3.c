@@ -1,20 +1,20 @@
+                                                                                Archivo: c.c                                                                                                
 #include<stdio.h>
 int main(){
- int i=0,n1[10]={0};
-  printf("ingrese dos numeros: ");
-   for(i=0;i<2;i++){
-    scanf("%d",&n1[i]);
+ int v[10]={0},i=0;
+    printf("ingrese dos numeros: ");
+     for(i=0;i<2;i++){
+        scanf("%d",&v[i]);
+        }
+ if(v[0]>v[1]){
+ for(i=v[1]+1;i<v[0];i++){
+   printf("%d ", v[9]+i);
+  } 
 }
-   for(i=0;i<n1[1];i++){
-      printf("%d\n",n1[i]);
-}
-
+else{
+        for(i=v[0]+1;i<v[1];i++){
+         printf("%d ",v[9]+i);
+      }
+ }
 return 0;
-  }
-
-
-
-
-
-
-
+}
