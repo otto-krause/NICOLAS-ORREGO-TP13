@@ -1,4 +1,3 @@
-                                                                                Archivo: c.c                                                                                                
 #include<stdio.h>
 int main(){
  int v[10]={0},i=0;
